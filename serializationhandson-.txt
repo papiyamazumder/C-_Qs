@@ -1,0 +1,16 @@
+1 .BinaryFormatter: Binary serialization
+
+Create a C# program to serialize and deserialize objects in binary format. To do this you can use the BinaryFormatter class included in the System.Runtime.Serialization namespace.
+
+First implement a Person class with three properties (Name, Age and City). The City class will have two properties (Name and Population). Then create a person object and use the BinaryFormatter object's serializer to save the data in a binary file, later deserialize the file and print it on screen. Remember to prepare a ToString () method to print the Persona class.
+
+
+2.    XmlSerialization: Serialize objects
+Create a C# program to serialize and deserialize objects in XML format. To do this you can use the XmlSerialization class included in the System.Xml.Serialization namespace.
+
+First implement a Person class with three properties (Name, Age and City). The City class will have two properties (Name and Population). Then create a person object and use the XmlSerialization object serializer to save the data in an xml file, later deserialize the file and print it on screen. Remember to prepare a ToString() method to print the Persona class.
+
+
+3. Json: Serialize objects
+
+First implement a Person class with three properties (Name, Age and City). The City class will have two properties (Name and Population). Then create a person object and use the JsonConvert object's serializer to save the data in a .json file, later deserialize the.json file and print it on screen. Remember to prepare a ToString () method to print the Persona class.

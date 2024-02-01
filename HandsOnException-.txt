@@ -1,0 +1,13 @@
+Exception Handline Hands On:
+
+1. Creates a method that takes a string as input and converts it to uppercase. Handle the NullReferenceException that occurs if the input string is null.
+
+2. Creates a method that calculates the factorial of a given number. Handle the OverflowException that occurs if the result exceeds the Int32 maximum value.
+
+3. creates a method that reads a number from the user and calculates its square root. Handle the exception if the number is negative.
+
+4. creates a method that reads a date from the user in the format "dd/mm/yyyy" and converts it to a DateTime object. Handle an exception if the input format is invalid.
+
+5. Create a method that divides two numbers. Handle the DivideByZeroException that occurs if the denominator is 0.
+
+6. Create a method that takes an integer as input and throws an exception if the number is negative. Handle the exception in the calling code.
